@@ -32,13 +32,16 @@ You can check the status of Azure at https://azure.microsoft.com/en-us/status/
 1. Azure doesn't have this feature yet, but we encourage you to use Azure auto-shutdown https://azure.microsoft.com/en-us/blog/announcing-auto-shutdown-for-vms-using-azure-resource-manager/ 
 
 ### Is my VM off? (And not charging me) ###
-**Just an FYI – there are two possible stopped states in Azure**
-*Stopped (still incurring compute charges) - $1.24/hr*
-If this is showing, hit STOP one more time to move to deallocated. (This basically frees up your VM hardware for someone to use while you’re not running anything – otherwise you’ve claimed “dibs”). This can happen if you do a "sudo shutdown now" in your VM. 
-	![](http://i.imgur.com/1A3GUQ7.jpg)
+> Just an FYI – there are two possible stopped states in Azure
 
-*Stopped (deallocated) – only paying for storage, more like $.04/hr*
-	![](http://i.imgur.com/PbfhnNS.jpg)
+**Stopped (still incurring compute charges)** - $1.24/hr
+
+If this is showing, hit STOP one more time to move to deallocated. (This basically frees up your VM hardware for someone to use while you’re not running anything – otherwise you’ve claimed “dibs”). This can happen if you do a "sudo shutdown now" in your VM.
+ 
+![](http://i.imgur.com/1A3GUQ7.jpg)
+
+**Stopped (deallocated)** – only paying for storage, more like $.04/hr
+![](http://i.imgur.com/PbfhnNS.jpg)
 
 ### How Do I Add Another SSH Account? ###
 Also known as "why do I keep getting logged out of my SSH session?" If you're sharing a VM with another user, when they log in, you get logged out. You can work around this by creating additional users for each person.
