@@ -24,7 +24,7 @@ Try using Chrome or Firefox incognito/in-private browsing. Safari doesn't consis
 ### Is it just me, or is Azure down? ###
 You can check the status of Azure at https://azure.microsoft.com/en-us/status/
 
-### If my subscription gets canceled (because I ran out of credits) what happens to my resources?###
+### If my subscription gets canceled (because I ran out of credits) what happens to my resources? ###
 If you get the following error, it means that you've run out of the credits which your professor allocated to you. Possibly due to accidentally leaving a VM running when you weren't using it.
 >Error: The subscription 'SUBSCRIPTION_ID_IS_HERE' is disabled and therefore marked as read only. You cannot perform any write actions on this subscription until it is re-enabled.
 
