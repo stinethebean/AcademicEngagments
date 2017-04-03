@@ -30,6 +30,7 @@ If you get the following error, it means that you've run out of the credits whic
 
 You'll want to reach out to your teaching staff to get your subscription re-activated, and more credits added. 
 When that's complete, when you log into Azure, all your resources will still be there. 
+
 **ALERT** - This is what usually causes the **Stopped(still incurring charges)** state (see below) - once it's re-activated, make sure you go back and turn off the VM/other resources. 
 
 
