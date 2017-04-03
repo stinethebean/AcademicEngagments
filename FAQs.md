@@ -21,9 +21,16 @@ If you are working in groups (and students are owners in Azure) – they can add
 ### Why Won't the Azure Portal Load? OR The Azure Portal Seems Broken ### 
 Try using Chrome or Firefox incognito/in-private browsing. Safari doesn't consistently work with Azure. Sometimes caching issues require you use in-private/incognito mode.
 
-
 ### Is it just me, or is Azure down? ###
 You can check the status of Azure at https://azure.microsoft.com/en-us/status/
+
+### If my subscription gets canceled (because I ran out of credits) what happens to my resources?###
+If you get the following error, it means that you've run out of the credits which your professor allocated to you. Possibly due to accidentally leaving a VM running when you weren't using it.
+>Error: The subscription 'SUBSCRIPTION_ID_IS_HERE' is disabled and therefore marked as read only. You cannot perform any write actions on this subscription until it is re-enabled.
+
+You'll want to reach out to your teaching staff to get your subscription re-activated, and more credits added. 
+When that's complete, when you log into Azure, all your resources will still be there. 
+**ALERT** - This is what usually causes the **Stopped(still incurring charges)** state (see below) - once it's re-activated, make sure you go back and turn off the VM/other resources. 
 
 
 ## Technical ##
