@@ -34,6 +34,8 @@ When that's complete, when you log into Azure, all your resources will still be 
 **ALERT** - This is what usually causes the **Stopped(still incurring charges)** state (see below) - once it's re-activated, make sure you go back and turn off the VM/other resources. 
 
 
+
+
 ## Technical ##
 
 ### How do I have my VM turn off automatically when it's not being used ###
@@ -62,3 +64,11 @@ Follow these directions: https://docs.microsoft.com/en-us/azure/virtual-machines
 
 ### The IP address of my VM keeps changing, can I set it to be static? ###
 Yes! You can follow these directions: https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-deploy-static-pip-arm-portal 
+
+### How do I move my resources between subscriptions? ### 
+Directions for moving it between two subscriptions on the same directory. (For when you have a VM, and you want to move it to a different group) THIS IS NOT HOW YOU COPY A VM. https://docs.microsoft.com/en-us/azure/virtual-machines/windows/move-vm
+
+If you want to move it between directories (from a Free Trial to your Class Subscription) you'll need to use AzCopy: https://docs.microsoft.com/en-us/azure/storage/storage-use-azcopy 
+
+ ### What if I need technical help not listed here? ###
+You can file an Azure Support Request, following these directions: https://docs.microsoft.com/en-us/azure/azure-supportability/how-to-create-azure-support-request 
