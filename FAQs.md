@@ -72,3 +72,9 @@ If you want to move it between directories (from a Free Trial to your Class Subs
 
  ### What if I need technical help not listed here? ###
 You can file an Azure Support Request, following these directions: https://docs.microsoft.com/en-us/azure/azure-supportability/how-to-create-azure-support-request 
+
+### I'm getting an "out of disk space" error. Help? ###
+- [Attach a larger disk to your VM](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-classic-attach-disk) 
+- Run **df -h ** to see which disks have free space
+- Store your data to the attached disk. NOTE: There may be a temporary disk as well, do not store persistent data to it!
+- 
