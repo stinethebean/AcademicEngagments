@@ -14,7 +14,7 @@ Here are the steps to create an instance of the Data Science Virtual Machine for
 
 <img src="http://i.imgur.com/nBgI7RS.jpg" width="500">
 
-- Click Create (at the bottom) to bring up the wizard.
+- Click Create (at the bottom) to bring up the wizard, and search for Microsoft Data Science Virtual Machine (Ubuntu)
 
 <img src="https://docs.microsoft.com/en-us/azure/machine-learning/media/machine-learning-data-science-dsvm-ubuntu-intro/configure-data-science-virtual-machine.png" width="500">
 
