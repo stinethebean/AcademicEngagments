@@ -59,4 +59,5 @@ a.	Checked the Azure Portal again, and the subscription should as active and mat
 ## I'm seeing Duplicate Subscriptions & My students can't access them ##
 If you're seeing something like the following image, where you have 2 instances of the same subscription in your Academic Educator Portal, don't be alarmed. This is a known bug. 
 <img src="http://i.imgur.com/7uI7ftE.png" width="500"> 
+
 File a ticket at http://aka.ms/azdesk with a screenshot, and the team will work to fix it for you.
