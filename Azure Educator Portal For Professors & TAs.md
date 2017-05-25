@@ -41,33 +41,36 @@ and at https://www.microsoftazuresponsorships.com/Balance you see
 
 <img src="http://i.imgur.com/3Yo6jDb.png" width="500">
 
+This will let you restart the process of activating your grant.
+
 
 ## Educator Portal Showing Active while Azure Portal Shows Disabled ##
 Sometimes we see a glitch in the matrix or a Schrodinger’s Azure Subscription, with a subscription showing Active in the Educator Portal and showing Disabled in the Azure Portal. (see images below)
 
 https://www.microsoftazuresponsorships.com showing this:
+
 <img src="http://i.imgur.com/Oyj7QhZ.jpg" width="500">
 
 https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade showing this: 
+
 <img src="http://i.imgur.com/RKoMsQr.jpg" width="500">
 
 1.	In the Azure Educator Portal,  move the Subscription to canceled & SAVE
-b.	Refreshed the page
-2.	Verified in Azure Portal, that the subscription is still disabled there
-a. You can do this by going to Subscriptions (on the right side, looks like a yellow key)
+2.	Refresh the page
+2.	Verifiy in Azure Portal, that the subscription is still disabled there. You can do this by going to Subscriptions (on the right side, looks like a yellow key)
 3.	In the Azure Educator Portal, move the subscription to Active & SAVE
-a.	Refresh the page
-c.	Verified that the subscription is still set to Active
-d.	NOTE – at this point, the Azure Portal, might still showed it as disabled
-4.	In the Azure Educator Portal
-a.	Set the cap to at least $50 more than their current state & SAVE
-b.	Refreshed the page
+4.	Refresh the page
+5.	Verified that the subscription is still set to Active
+6.	NOTE – at this point, the Azure Portal, might still showed it as disabled
+4.	In the Azure Educator Portal: Set the cap to at least $50 more than their current state & SAVE
+6.	Refreshed the page
 5.	Wait about 5 minutes
-a.	Checked the Azure Portal again, and the subscription should as active and match the Educator Portal
+10.	Checked the Azure Portal again, and the subscription should as active and match the Educator Portal
 
 
 ## I'm seeing Duplicate Subscriptions & My students can't access them ##
 If you're seeing something like the following image, where you have 2 instances of the same subscription in your Academic Educator Portal, don't be alarmed. This is a known bug. 
+
 <img src="http://i.imgur.com/7uI7ftE.png" width="500"> 
 
 File a ticket at http://aka.ms/azdesk with a screenshot, and the team will work to fix it for you.
