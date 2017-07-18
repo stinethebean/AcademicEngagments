@@ -10,5 +10,5 @@ Find Setup Guidance, Best Practices, and Debugging help here
 ### [Frequently Asked Questions](http://github.com/stinethebean/AcademicEngagments/blob/master/FAQs.md "Frequently Asked Questions") ###
 Both Setup and Technical Questions answered here
 
-### [Tensorflow on Azure](http://github.com/stinethebean/AcademicEngagments/TensorFlowonAzure.md "Tensorflow on Azure") ###
+### [Tensorflow on Azure](https://github.com/stinethebean/AcademicEngagments/blob/master/TensorFlowonAzure.md "Tensorflow on Azure") ###
 Walkthrough on setting up Tensorflow on an Azure VM
